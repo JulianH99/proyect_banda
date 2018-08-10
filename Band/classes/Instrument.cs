@@ -7,13 +7,13 @@ using BandProyect.interfaces;
 
 namespace BandProyect.classes
 {
-    abstract class Instrument : ITuneable, IPlayable
+    public abstract class Instrument : ITuneable, IPlayable
     {
         private InstrumentType type;
 
-        public Instrument() { }
+        protected Instrument() { }
 
-        public Instrument(InstrumentType type)
+        protected Instrument(InstrumentType type)
         {
             this.type = type;
         }

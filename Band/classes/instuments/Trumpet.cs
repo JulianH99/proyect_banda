@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes.instuments
 {
-    class Thrumpet
+    public class Trumpet : Instrument
     {
+        public Trumpet() : base(InstrumentType.CHORDS)
+        {
+        }
+
+        public override bool Play()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override TuneStates Tune()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

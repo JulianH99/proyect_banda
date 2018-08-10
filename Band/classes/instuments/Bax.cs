@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes.instuments
 {
-    class Bax : Instrument
+    public class Bax : Instrument
     {
         public Bax() : base(InstrumentType.CHORDS)
         {

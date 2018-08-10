@@ -12,14 +12,17 @@ namespace BandProyect
     {
         static void Main(string[] args)
         {
-            // create instuments
-            Guittar guittar1 = new Guittar(InstrumentType.CHORDS);
-
-            // create musicians
-            Musician musician1 = new Musician(guittar1);
-
             // create band
-            AbstractBand band = new BandProyect();
+            AbstractBand band = new Band();
+
+            if (band.Gather())
+            {
+                Console.WriteLine("Band has gathered");
+            }
+            else
+            {
+                Console.WriteLine("Band could not gather");
+            }
 
             
         }

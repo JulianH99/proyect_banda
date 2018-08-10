@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes
 {
-    enum InstrumentType
+    public enum InstrumentType
     {
         CHORDS,
         WIND,

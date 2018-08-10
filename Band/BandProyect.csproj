@@ -43,9 +43,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\AbstractBand.cs" />
+    <Compile Include="classes\Band.cs" />
+    <Compile Include="classes\factories\InstrumentFactory.cs" />
+    <Compile Include="classes\generators\InstrumentGenerator.cs" />
     <Compile Include="classes\Instrument.cs" />
     <Compile Include="classes\InstrumentType.cs" />
+    <Compile Include="classes\instuments\Bax.cs" />
+    <Compile Include="classes\instuments\Drums.cs" />
     <Compile Include="classes\instuments\Guittar.cs" />
+    <Compile Include="classes\instuments\Piano.cs" />
+    <Compile Include="classes\instuments\Trumpet.cs" />
     <Compile Include="classes\Musician.cs" />
     <Compile Include="classes\TuneStates.cs" />
     <Compile Include="interfaces\IPlayable.cs" />

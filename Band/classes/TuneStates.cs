@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes
 {
-    enum TuneStates
+    public enum TuneStates
     {
         TUNED,
         NOTTUNED,

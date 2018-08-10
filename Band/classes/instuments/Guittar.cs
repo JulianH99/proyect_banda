@@ -7,11 +7,10 @@ using BandProyect.classes;
 
 namespace BandProyect.classes.instuments
 {
-    class Guittar : Instrument
+    public class Guittar : Instrument
     {
-        public Guittar()
+        public Guittar(): base(InstrumentType.CHORDS)
         {
-            base(InstrumentType.CHORDS);
         }
 
         public override bool Play()

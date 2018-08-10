@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes
 {
-    abstract class AbstractBand
+    public abstract class AbstractBand
     {
-        protected Musician musicians;
+        protected Musician[] Musicians;
 
-        public abstract bool Gather(Musician[] musicians);
+        public abstract bool Gather();
 
         public abstract bool Test();
 

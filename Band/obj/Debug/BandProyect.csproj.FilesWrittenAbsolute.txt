@@ -1,0 +1,6 @@
+/home/julian/Documents/projects/Band/Band/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/julian/Documents/projects/Band/Band/bin/Debug/BandProyect.exe.config
+/home/julian/Documents/projects/Band/Band/bin/Debug/BandProyect.pdb
+/home/julian/Documents/projects/Band/Band/bin/Debug/BandProyect.exe
+/home/julian/Documents/projects/Band/Band/obj/Debug/BandProyect.exe
+/home/julian/Documents/projects/Band/Band/obj/Debug/BandProyect.pdb

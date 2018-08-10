@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes.instuments
 {
-    class Drums
+    public class Drums : Instrument
     {
+        public Drums() : base(InstrumentType.PERCUSION)
+        {
+        }
+
+        public override bool Play()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override TuneStates Tune()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes.instuments
 {
-    class Piano : Instrument
+    public class Piano : Instrument
     {
         public Piano() : base(InstrumentType.CHORDS)
         {

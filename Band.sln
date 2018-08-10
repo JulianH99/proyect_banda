@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Band", "Band\Band.csproj", "{AC2A0089-D5BE-4E88-9FCA-E44159935206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandProyect", "Band\BandProyect.csproj", "{AC2A0089-D5BE-4E88-9FCA-E44159935206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

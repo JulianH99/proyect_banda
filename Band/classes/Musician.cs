@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandProyect.classes
 {
-    class Musician
+    public class Musician
     {
         private Instrument instrument;
 
