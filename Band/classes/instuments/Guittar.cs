@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BandProyect.classes;
 
 namespace BandProyect.classes.instuments
 {
     public class Guittar : Instrument
     {
-        public Guittar(): base(InstrumentType.CHORDS)
+        public Guittar(): base(InstrumentType.Chords)
         {
         }
 
@@ -18,9 +13,8 @@ namespace BandProyect.classes.instuments
             throw new NotImplementedException();
         }
 
-        public override TuneStates Tune()
-        {
-            return TuneStates.TUNED;
-        }
+        public override TuneStates Tune() => TuneStates.Tuned;
+
+        public override string Name() => "Guittar";
     }
 }

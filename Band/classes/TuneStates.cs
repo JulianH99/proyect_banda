@@ -8,8 +8,8 @@ namespace BandProyect.classes
 {
     public enum TuneStates
     {
-        TUNED,
-        NOTTUNED,
-        CANTTUNE
+        Tuned,
+        NotTuned,
+        CantTune
     }
 }

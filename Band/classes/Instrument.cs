@@ -9,16 +9,17 @@ namespace BandProyect.classes
 {
     public abstract class Instrument : ITuneable, IPlayable
     {
-        private InstrumentType type;
+        private InstrumentType _type;
 
         protected Instrument() { }
 
         protected Instrument(InstrumentType type)
         {
-            this.type = type;
+            this._type = type;
         }
 
         public abstract bool Play();
         public abstract TuneStates Tune();
+        public abstract string Name();
     }
 }

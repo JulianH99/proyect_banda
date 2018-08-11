@@ -8,11 +8,13 @@ namespace BandProyect.classes
 {
     public class Musician
     {
-        private Instrument instrument;
+        public Instrument Instrument { get; private set; }
 
         public Musician(Instrument instrument)
         {
-            this.instrument = instrument;
+            this.Instrument = instrument;
         }
+        
+        
     }
 }

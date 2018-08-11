@@ -15,16 +15,11 @@ namespace BandProyect
             // create band
             AbstractBand band = new Band();
 
-            if (band.Gather())
-            {
-                Console.WriteLine("Band has gathered");
-            }
-            else
-            {
-                Console.WriteLine("Band could not gather");
-            }
+            Console.WriteLine(band.Gather() ? "Band has gathered" 
+                : "Band could not gather");
 
-            
+            if (band.Tune() && band.Test())
+                band.Play();
         }
     }
 }

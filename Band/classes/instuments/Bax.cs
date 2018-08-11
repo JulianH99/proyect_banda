@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BandProyect.classes.instuments
 {
     public class Bax : Instrument
     {
-        public Bax() : base(InstrumentType.CHORDS)
+        public Bax() : base(InstrumentType.Chords)
         {
         }
 
@@ -17,9 +13,8 @@ namespace BandProyect.classes.instuments
             throw new NotImplementedException();
         }
 
-        public override TuneStates Tune()
-        {
-            throw new NotImplementedException();
-        }
+        public override TuneStates Tune() => TuneStates.Tuned;
+
+        public override string Name() => "Bax";
     }
 }

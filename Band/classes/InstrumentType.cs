@@ -8,8 +8,8 @@ namespace BandProyect.classes
 {
     public enum InstrumentType
     {
-        CHORDS,
-        WIND,
-        PERCUSION
+        Chords,
+        Wind,
+        Percusion
     }
 }

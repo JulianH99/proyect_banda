@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 using BandProyect.classes.generators;
 
 namespace BandProyect.classes
@@ -17,17 +15,22 @@ namespace BandProyect.classes
         public override bool Gather()
         {
             var instrumentGenerator = new InstrumentGenerator();
-            var instrumentList = instrumentGenerator.GenerateInstruments();
             var musiciansList = new List<Musician>();
-            
-            instrumentList.ForEach(instrument =>
+
+            try
             {
-                musiciansList.Add(new Musician(instrument));
-            });
+                var instrumentList = instrumentGenerator.GenerateInstruments();
+                instrumentList.ForEach(instrument => { musiciansList.Add(new Musician(instrument)); });
 
-            this.Musicians = musiciansList.ToArray();
+                Musicians = musiciansList.ToArray();
 
-            return false;
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
         }
 
         public override void Play()
@@ -37,7 +40,7 @@ namespace BandProyect.classes
 
         public override bool Test()
         {
-            throw new NotImplementedException();
+            return false;
         }
     }
 }
