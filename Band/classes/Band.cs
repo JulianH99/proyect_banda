@@ -35,12 +35,22 @@ namespace BandProyect.classes
 
         public override void Play()
         {
-            throw new NotImplementedException();
+            foreach (var musician in Musicians)
+            {
+                musician.Instrument.Play();
+            }
         }
 
         public override bool Test()
         {
-            return false;
+            var testOk = true;
+            foreach (var musician in Musicians)
+            {
+                if (!musician.Instrument.Play())
+                    testOk = false;
+            }
+
+            return testOk;
         }
     }
 }

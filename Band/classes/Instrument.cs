@@ -18,7 +18,7 @@ namespace BandProyect.classes
             this._type = type;
         }
 
-        public abstract bool Play();
+        public bool Play() => true;
         public abstract TuneStates Tune();
         public abstract string Name();
     }

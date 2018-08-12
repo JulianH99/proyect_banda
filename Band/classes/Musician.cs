@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BandProyect.classes
+﻿namespace BandProyect.classes
 {
     public class Musician
     {
@@ -12,7 +6,7 @@ namespace BandProyect.classes
 
         public Musician(Instrument instrument)
         {
-            this.Instrument = instrument;
+            Instrument = instrument;
         }
         
         

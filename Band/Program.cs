@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BandProyect.classes;
-using BandProyect.classes.instuments;
 
 namespace BandProyect
 {
@@ -19,7 +14,12 @@ namespace BandProyect
                 : "Band could not gather");
 
             if (band.Tune() && band.Test())
+            {
+                Console.WriteLine("Band is noe playing");
                 band.Play();
+            }
+            else 
+                Console.WriteLine("Band could not play");
         }
     }
 }
