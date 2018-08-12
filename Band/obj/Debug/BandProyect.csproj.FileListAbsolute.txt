@@ -1,0 +1,7 @@
+C:\Users\Julia\source\repos\proyecto_banda\Band\bin\Debug\BandProyect.exe.config
+C:\Users\Julia\source\repos\proyecto_banda\Band\bin\Debug\BandProyect.exe
+C:\Users\Julia\source\repos\proyecto_banda\Band\bin\Debug\BandProyect.pdb
+C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.csprojAssemblyReference.cache
+C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.csproj.CoreCompileInputs.cache
+C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.exe
+C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.pdb

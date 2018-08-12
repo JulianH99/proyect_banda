@@ -17,9 +17,9 @@ namespace BandProyect.classes
             var instrumentGenerator = new InstrumentGenerator();
             var musiciansList = new List<Musician>();
 
+            var instrumentList = instrumentGenerator.GenerateInstruments();
             try
             {
-                var instrumentList = instrumentGenerator.GenerateInstruments();
                 instrumentList.ForEach(instrument => { musiciansList.Add(new Musician(instrument)); });
 
                 Musicians = musiciansList.ToArray();

@@ -7,6 +7,7 @@ namespace BandProyect
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Band proyect started");
             // create band
             AbstractBand band = new Band();
 
@@ -15,11 +16,13 @@ namespace BandProyect
 
             if (band.Tune() && band.Test())
             {
-                Console.WriteLine("Band is noe playing");
+                Console.WriteLine("Band is now playing");
                 band.Play();
             }
             else 
                 Console.WriteLine("Band could not play");
+
+            Console.ReadKey();
         }
     }
 }

@@ -23,7 +23,7 @@ namespace BandProyect.classes
 
                 if (tunedState == TuneStates.NotTuned)
                     testSuccessful = false;
-                Console.WriteLine($"#{instName} tune state is #{tunedState}");
+                Console.WriteLine($"{instName} tune state is {tunedState}");
             }
 
             return testSuccessful;

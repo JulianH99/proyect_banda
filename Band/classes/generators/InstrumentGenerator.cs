@@ -21,7 +21,7 @@ namespace BandProyect.classes.generators
         public List<Instrument> GenerateInstruments()
         {
             var randomGen = new Random();
-            var instNumber = randomGen.Next(); // random number of instruments
+            var instNumber = randomGen.Next(5, 20); // random number of instruments
             var instList = new List<Instrument>();
 
             for (var i = 0; i < instNumber; i++)
