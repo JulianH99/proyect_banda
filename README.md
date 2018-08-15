@@ -3,7 +3,7 @@
 ## integrantes 
   - Julián Andrés Barrios - 20171020123
   - Juan Camilo Sánchez - 20171020131
-  - Fabio Ortíz
+  - Fabio Ortíz - 20171020051
 
 ## Recomendaciones
 Abrir en Visual Studio 2017 o JetBrains Rider. Aunque funciona cualquier programa capaz de compilar archivos .sln
