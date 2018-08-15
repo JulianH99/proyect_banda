@@ -7,11 +7,7 @@ namespace BandProyect.classes
 {
     public class Band : AbstractBand
     {
-        public override bool ChooseSong()
-        {
-            throw new NotImplementedException();
-        }
-
+        
         public override bool Gather()
         {
             var instrumentGenerator = new InstrumentGenerator();

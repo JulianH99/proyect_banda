@@ -33,7 +33,5 @@ namespace BandProyect.classes
         public abstract bool Test();
 
         public abstract void Play();
-
-        public abstract bool ChooseSong();
     }
 }
