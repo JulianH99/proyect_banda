@@ -5,3 +5,17 @@ C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.csprojAsse
 C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.csproj.CoreCompileInputs.cache
 C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.exe
 C:\Users\Julia\source\repos\proyecto_banda\Band\obj\Debug\BandProyect.pdb
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\obj\Debug\BandProyect.csprojAssemblyReference.cache
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\obj\Debug\BandProyect.csproj.CoreCompileInputs.cache
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\obj\Debug\BandProyect.exe
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\obj\Debug\BandProyect.pdb
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\bin\Debug\BandProyect.exe.config
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\bin\Debug\BandProyect.exe
+C:\Users\Estudiantes\Downloads\proyecto_banda-master\Band\bin\Debug\BandProyect.pdb
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\bin\Debug\BandProyect.exe.config
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\bin\Debug\BandProyect.exe
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\bin\Debug\BandProyect.pdb
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\obj\Debug\BandProyect.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\obj\Debug\BandProyect.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\obj\Debug\BandProyect.exe
+C:\Users\Juan\Desktop\Nueva carpeta\proyecto_banda\Band\obj\Debug\BandProyect.pdb

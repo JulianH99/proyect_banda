@@ -18,12 +18,11 @@ namespace BandProyect.classes
 
             foreach (var musician in Musicians)
             {
-                var instName = musician.Instrument.Name();
-                var tunedState = musician.Instrument.Tune();
+                var instName = musician.Instrument.Name;
+                var tuned = musician.TuneInstrument();
 
-                if (tunedState == TuneStates.NotTuned)
+                if (!tuned)
                     testSuccessful = false;
-                Console.WriteLine($"{instName} tune state is {tunedState}");
             }
 
             return testSuccessful;

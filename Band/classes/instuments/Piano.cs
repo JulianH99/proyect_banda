@@ -6,10 +6,15 @@ namespace BandProyect.classes.instuments
     {
         public Piano() : base(InstrumentType.Chords)
         {
+            this.TuneState = TuneStates.CantTune;
+            this.Name = "Piano";
         }
 
-        public override TuneStates Tune() => TuneStates.Tuned;
+        
 
-        public override string Name() => "Piano";
+        public override char Play()
+        {
+            return (char)(new Random()).Next(0, 127);
+        }
     }
 }

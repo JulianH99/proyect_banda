@@ -6,10 +6,16 @@ namespace BandProyect.classes.instuments
     {
         public Drums() : base(InstrumentType.Percusion)
         {
+            this.Name = "Drums";
+        }
+        
+
+        public override char Play()
+        {
+            return (char)(new Random()).Next(0, 127);
         }
 
-        public override TuneStates Tune() => TuneStates.CantTune;
+        
 
-        public override string Name() => "Drums";
     }
 }

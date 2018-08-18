@@ -6,10 +6,15 @@ namespace BandProyect.classes.instuments
     {
         public Guittar(): base(InstrumentType.Chords)
         {
+            this.Name = "Guittar";
         }
 
-        public override TuneStates Tune() => TuneStates.Tuned;
+        
 
-        public override string Name() => "Guittar";
+        public override char Play()
+        {
+            return (char)(new Random()).Next(0, 127);
+        }
+
     }
 }

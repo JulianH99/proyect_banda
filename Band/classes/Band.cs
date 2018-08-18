@@ -33,7 +33,7 @@ namespace BandProyect.classes
         {
             foreach (var musician in Musicians)
             {
-                musician.Instrument.Play();
+                musician.PlayInstrument();
             }
         }
 
@@ -42,8 +42,7 @@ namespace BandProyect.classes
             var testOk = true;
             foreach (var musician in Musicians)
             {
-                if (!musician.Instrument.Play())
-                    testOk = false;
+                if (!musician.PlayInstrument()) testOk = false;
             }
 
             return testOk;

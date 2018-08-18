@@ -6,10 +6,15 @@ namespace BandProyect.classes.instuments
     {
         public Bax() : base(InstrumentType.Chords)
         {
+            this.Name = "Bax";
         }
 
-        public override TuneStates Tune() => TuneStates.Tuned;
+        
+        
 
-        public override string Name() => "Bax";
+        public override char Play()
+        {
+            return (char)(new Random()).Next(0, 127);
+        }
     }
 }

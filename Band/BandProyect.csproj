@@ -56,7 +56,8 @@
     <Compile Include="classes\Musician.cs" />
     <Compile Include="classes\TuneStates.cs" />
     <Compile Include="interfaces\IPlayable.cs" />
-    <Compile Include="interfaces\ITuneable.cs" />
+    <Compile Include="interfaces\IPlayer.cs" />
+    <Compile Include="interfaces\ITuner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

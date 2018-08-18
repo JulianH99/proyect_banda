@@ -8,6 +8,6 @@ namespace BandProyect.interfaces
 {
     interface IPlayable
     {
-        bool Play();
+        char Play();
     }
 }

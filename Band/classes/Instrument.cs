@@ -7,19 +7,19 @@ using BandProyect.interfaces;
 
 namespace BandProyect.classes
 {
-    public abstract class Instrument : ITuneable, IPlayable
+    public abstract class Instrument : IPlayable
     {
         private InstrumentType _type;
+        public TuneStates TuneState { get; set; } = TuneStates.NotTuned;
+        public string Name;
 
         protected Instrument() { }
 
         protected Instrument(InstrumentType type)
         {
-            this._type = type;
+            _type = type;
         }
 
-        public bool Play() => true;
-        public abstract TuneStates Tune();
-        public abstract string Name();
+        public abstract char Play();
     }
 }

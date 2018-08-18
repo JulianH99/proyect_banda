@@ -6,10 +6,12 @@ namespace BandProyect.classes.instuments
     {
         public Trumpet() : base(InstrumentType.Chords)
         {
+            this.Name = "Trumpet";
         }
 
-        public override TuneStates Tune() => TuneStates.CantTune;
-
-        public override string Name() => "Trumpet";
+        public override char Play()
+        {
+            return (char)(new Random()).Next(0, 127);
+        }
     }
 }
