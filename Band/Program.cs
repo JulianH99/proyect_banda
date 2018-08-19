@@ -5,7 +5,7 @@ namespace BandProyect
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Band proyect started");
             // create band

@@ -14,7 +14,8 @@ namespace BandProyect.classes
 
         public bool PlayInstrument()
         {
-            Console.WriteLine($"Tocando el instrumento {Instrument.Name}");
+            Console.WriteLine($"Playing instruments {Instrument.Name}");
+            Instrument.Play();
 
             return true;
         }
@@ -24,11 +25,11 @@ namespace BandProyect.classes
 
             if(Instrument.TuneState == TuneStates.CantTune)
             {
-                Console.WriteLine($"El instrumento {Instrument.Name} no es afinable");
+                Console.WriteLine($"Instrument {Instrument.Name} is not afinable");
             }
             else
             {
-                Console.WriteLine($"Afinando {Instrument.Name}");
+                Console.WriteLine($"Tuning {Instrument.Name}");
 
                 Instrument.TuneState = TuneStates.Tuned;
             }

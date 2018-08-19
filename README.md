@@ -7,3 +7,11 @@
 
 ## Recomendaciones
 Abrir en Visual Studio 2017 o JetBrains Rider. Aunque funciona cualquier programa capaz de compilar archivos .sln
+
+## Diagramas
+
+### Diagrama de clases
+![Diagrama de clases](./BandModel.jpg)
+### Diagrama de secuencia
+![Diagrama de secuencia](./secuencia.jpg)
+
